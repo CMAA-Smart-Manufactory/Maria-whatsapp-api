@@ -9,8 +9,8 @@ services:
     ports:
       - "5000:3000"
     environment:
-      # - API_KEY=your_global_api_key_here  # OPTIONAL
-      - BASE_WEBHOOK_URL=http://localhost:5000/localCallbackExample
+      - API_KEY=QW5aMZEdFg4zjSJg9aqfPsv9OCHnlQ4xd7j8z1nHjFgGpKYblEq0t6HSLZUNMQcF  # OPTIONAL
+      - BASE_WEBHOOK_URL=http://10.1.18.85:5678/webhook-test/7fa973c0-0f5b-4644-9293-7b5009df5540
       - ENABLE_LOCAL_CALLBACK_EXAMPLE=TRUE # OPTIONAL, NOT RECOMMENDED FOR PRODUCTION
       - MAX_ATTACHMENT_SIZE=5000000 # IN BYTES
       - SET_MESSAGES_AS_SEEN=TRUE # WILL MARK THE MESSAGES AS READ AUTOMATICALLY
